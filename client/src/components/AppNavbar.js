@@ -27,14 +27,6 @@ class AppNavbar extends Component {
                 <Navbar dark expand="sm" className="navbar mb-5">
                     <Container>
                         <NavbarBrand href="/" className="brand">ToDo</NavbarBrand>
-                        <NavbarToggler onClick={this.toggle}></NavbarToggler>
-                        <Collapse isOpen={this.state.isOpen} navbar>
-                            <Nav className="ml-auto" navbar>
-                                <NavItem>
-                                    <NavLink href="melanievillela.github.io">Portfolio</NavLink>
-                                </NavItem>
-                            </Nav>
-                        </Collapse>
                     </Container>
                 </Navbar>
             </div>
@@ -43,3 +35,15 @@ class AppNavbar extends Component {
 }
 
 export default AppNavbar;
+
+/*
+Use below to add links
+<NavbarToggler onClick={this.toggle}></NavbarToggler>
+<Collapse isOpen={this.state.isOpen} navbar>
+    <Nav className="ml-auto" navbar>
+        <NavItem>
+            <NavLink href="melanievillela.github.io">Portfolio</NavLink>
+        </NavItem>
+    </Nav>
+</Collapse>
+*/
