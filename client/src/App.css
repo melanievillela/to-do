@@ -1,0 +1,54 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.add-btn {
+    margin-bottom: 1em;
+    margin-left: 1em;
+    background-color: #ffcc5c;
+    color: black;
+}
+
+.add-btn-modal {
+    display: block;
+    margin-top: 1em;
+    width: 100%;
+    background-color: #0e9aa7;
+}
+
+.brand {
+    font-family: 'Bevan', cursive;
+}
+
+.btn {
+    border: none;
+    font-family: 'Bevan', cursive;
+    color: white;
+}
+
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 1000ms ease-in;
+}
+
+.navbar {
+    background-color: #96ceb4;
+}
+
+.remove-btn {
+    margin-right: 1em;
+    background-color: #ff6f69;
+}
