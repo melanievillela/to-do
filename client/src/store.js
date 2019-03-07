@@ -15,11 +15,3 @@ const store = createStore(rootReducer, initialState, compose(
 ));
 
 export default store;
-
-/*
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-
-const store = createStore(reducer, initialState, composeEnhancers(
-    applyMiddleware(...middleware)
-));
-*/
